@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.singlescreenapp.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dog"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOG WORLD!"
+        android:fontFamily="monospace"
+        android:textSize="40sp"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:textColor="#bd15c9"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Come let's have your dog party with us!"
+        android:fontFamily="monospace"
+        android:textSize="14sp"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:textColor="#1557c9"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buzz: 372-3738777"
+        android:fontFamily="monospace"
+        android:textSize="15sp"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:text="email: dogworld@gmail.com"
+        android:fontFamily="monospace"
+        android:textSize="15sp"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:src="@drawable/map"
+        android:scaleType="centerInside"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="monospace"
+        android:paddingLeft="0dp"
+        android:text="12064 quaary ct, fishers 47748"
+        android:textSize="15sp" />
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="www.dogworld.com"
+        android:fontFamily="monospace"
+        android:textSize="15sp"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"/>
+
+</LinearLayout>
+</ScrollView>

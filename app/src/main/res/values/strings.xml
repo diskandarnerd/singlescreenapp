@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">singlescreenapp</string>
+    <string name="dog_world">DOG WORLD!</string>
+    <string name="address">12064 Quarry Ct, Fishers 46037</string>
+</resources>
